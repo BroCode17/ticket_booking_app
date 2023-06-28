@@ -25,7 +25,14 @@ class TicketScreen extends StatelessWidget {
               const AppTicketTabs(t1: "Upcoming", t2: "Previous"),
               Gap(AppLayout.getHeight(20)),
               Container(
-                child: TicketView(ticket: ticketList[0]),
+                child: TicketView(ticket: ticketList[0], isColor: true),
+              ),
+              Container(
+                child: Column(
+                  children: [
+
+                  ],
+                ),
               ),
 
             ],
